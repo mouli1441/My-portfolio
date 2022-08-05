@@ -1,7 +1,11 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.13.0"
+  },
   "private": true,
+  
  
   "dependencies": {
     "@svgr/webpack": "^6.3.1",
@@ -31,7 +35,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "eject": "react-scripts eject"
    
   },
   "eslintConfig": {
